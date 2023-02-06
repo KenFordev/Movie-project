@@ -1,0 +1,31 @@
+.movie-content {
+    position: relative;
+    overflow: hidden;
+}
+.movie-content img {
+    width: 100%;
+}
+.movie-title {
+    position: absolute;
+    top: 0;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, .7);
+}
+.btn-lay {
+    display: flex;
+    justify-content: center;
+}
+.AddToCart {
+    text-align: center;
+    padding: 4px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #000;
+    transition: .3s ease;
+}
+.AddToCart:hover {
+    background-color: transparent;
+    color: aliceblue;
+    border: 1px solid #fff;
+}

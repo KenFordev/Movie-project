@@ -1,0 +1,19 @@
+.content-bg {
+    background: #363636;
+    height: auto;
+    overflow: hidden;
+}
+.content-header {
+    color: #d7d4d4;
+    text-align: center;
+    margin-top: 3rem;
+    text-decoration: underline;
+}
+.content-movie-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    padding: 1rem 1rem;
+    margin-top: 3rem;
+}
+
